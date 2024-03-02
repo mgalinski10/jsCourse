@@ -39,3 +39,29 @@ const jonas = {
 console.log(jonas.lastName)
 
 console.log(`Jonas has ${jonas['friends'].length} friends, and his best friend is called ${jonas['friends'][0]}.}`)
+
+const mark = {
+    fullName: 'Mark Zuckenberg',
+    mass: 78,
+    height: 1.69,
+    calcBmi: function () {
+        return this.mass / (this.height * this.height)
+    }
+};
+
+const john = {
+    fullName: 'John Zuckenberg',
+    mass: 92,
+    height: 1.95,
+    calcBmi: function () {
+        return this.mass / (this.height * this.height)
+    }
+};
+
+console.log(john.calcBmi());
+console.log(mark.calcBmi());
+
+function recursion(n) {
+    console.log(`Powtórzenie numer: `)
+    return
+}
