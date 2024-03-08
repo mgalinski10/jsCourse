@@ -11,6 +11,8 @@ const btnNew = document.querySelector('.btn--new');
 const btnRoll = document.querySelector('.btn--roll');
 const btnHold = document.querySelector('.btn--hold');
 
+const btnNewGame = document.querySelector('.btn--new');
+
 // Starting conditions
 score0El.textContent = 0;
 score1El.textContent = 0;
@@ -36,4 +38,10 @@ btnRoll.addEventListener('click', function () {
   } else {
     // Switch to next player
   }
+});
+
+// Restart score for both players
+btnNewGame.addEventListener('click', function () {
+  current0El.textContent = 0;
+  current1El.textContent = 0;
 });
