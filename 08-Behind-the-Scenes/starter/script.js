@@ -21,3 +21,13 @@ function calcAge(birthYear) {
 
 const firstName = 'Michal';
 calcAge(2004);
+
+// console.log(x);
+
+// const x = 'hello';
+
+foo(); // "Hello, world!"
+
+function foo() {
+  console.log('Hello, world!');
+}
