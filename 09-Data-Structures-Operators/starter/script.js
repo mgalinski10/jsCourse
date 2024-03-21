@@ -37,22 +37,22 @@ const restaurant = {
   },
 };
 
-restaurant.orderDelivery({
-  time: '22:30',
-  address: 'Wrzosowa, 28',
-  mainIndex: 2,
-  starterIndex: 2,
-});
+// restaurant.orderDelivery({
+//   time: '22:30',
+//   address: 'Wrzosowa, 28',
+//   mainIndex: 2,
+//   starterIndex: 2,
+// });
 
-const { name, openingHours, categories } = restaurant;
-console.log(name, openingHours, categories);
+// const { name, openingHours, categories } = restaurant;
+// console.log(name, openingHours, categories);
 
-const {
-  name: restaurantName,
-  openingHours: hours,
-  categories: tags,
-} = restaurant;
-console.log(restaurantName, hours, tags);
+// const {
+//   name: restaurantName,
+//   openingHours: hours,
+//   categories: tags,
+// } = restaurant;
+// console.log(restaurantName, hours, tags);
 
 // const arr = [2, 3, 4];
 // const a = arr[0];
@@ -61,3 +61,7 @@ console.log(restaurantName, hours, tags);
 
 // const [x, y, z] = arr;
 // console.log(x, y, z);
+
+const arr = [7, 8, 9];
+const newArr = [1, 2, ...arr];
+console.log(newArr);
