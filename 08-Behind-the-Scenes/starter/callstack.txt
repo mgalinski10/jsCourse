@@ -1,0 +1,17 @@
+Compilation -> Execution(wykonywanie kodu oprcz tego w srodku funkcji!!ciało funkcji wykonuje się tylko wtedy kiedy zostanie wywołane)
+
+execution context - srodowisko gdzie kawałki kodu JS są wykonywane. Przechowuje wszsyekie potrzbe informacje do wykonania kodu. 
+
+JS ma dokładnie jedno globalne srodowisko wykonnywania - Kod który nie jest w funkcjach, ogólno dostępny
+
+Schemat wykonywania kodu:
+
+Utworzenie głownegi konteksu -> wykonanie głownego kontextu -> wykonanie funkcji i czekanie na callbacki 
+
+co zawiera execution kontekst -> zmienne(let, const, var), funkcje; Scope chain("zakres zasięgu"); słowo kluczowe THIS. 
+
+  
+
+
+
+

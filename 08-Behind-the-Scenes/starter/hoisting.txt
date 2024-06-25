@@ -1,0 +1,10 @@
+variable environment
+
+hoisting - umozliwianie dostepu do kodu ktory nie został napisany pozniej
+
+ Temperal dead zone sprawia ze kod jest bardziej przewidywalny i czytelny, trafiaja tam consty i lety ktroe nie zostały jeszcze inicjalizowane
+
+ proby uzyskania dostepy do zmiennych przed deklaracją -> zla praktyka!!! UNIKAC
+
+ 
+

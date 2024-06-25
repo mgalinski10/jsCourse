@@ -1,9 +1,0 @@
-Java script -> JustInTime compilation
-
-API -> API przeglądarki (Browser API): Oprogramowanie przeglądarki udostępnia różne API, które pozwalają JavaScriptowi komunikować się z różnymi elementami przeglądarki, takimi jak DOM (Document Object Model), interakcja z użytkownikiem, obsługa zdarzeń, pobieranie danych z serwera itp.
-
-Scoping -> Scoping w JavaScript odnosi się do zasięgu widoczności zmiennych w programie. Oznacza to, gdzie i jak długo zmienna jest dostępna w kodzie. W JavaScript istnieją dwa główne typy zasięgów: zasięg globalny i zasięg lokalny. Przykład: zmienna zdefiniowana NA ZEWNATRZ funkcji ma zasięg globalny w całym kodzie, a zmienna zdefiniowana wewnątrz jakiejś funkcji ma zasięg w obrębie tylko tej funkcji.
-
-Dziedziczenie zmiennych -> zawsze od rodzica. np funkcja moze uyc zmienej globalnej; Funkcja w funkcji moze uzyc zmienne z tej funkcji nadrzednej. 
-
-VAR -> zawsze dostępna nawet poza blokiem w którycm została utowrzona. 

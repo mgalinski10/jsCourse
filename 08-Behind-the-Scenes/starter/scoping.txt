@@ -1,0 +1,14 @@
+Scoping - dostęp do zmiennych, to jak są zorganizowane.
+
+lexical scoping -  dostęp warunkowany przez ustwanienie bloków albo funkjci w kodzie
+
+Scope - srodowisko gdzie zmienne są zadeklarowane: global scope(dostępne z kazdego miejsca w kodzie), function scope(dostepne tylko w srodeku funkcji, nie na zewnatrz !!!/local scope), block scope(tak samo jak funkcje, oprocz VAR!!)
+
+"use strict" - powoduje ze funkcje są tez block scope
+
+Scope of a variable - region kodu gdzie poszczegolne zmienne mogą  być dostępne
+
+
+
+ 
+

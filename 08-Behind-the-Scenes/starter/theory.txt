@@ -1,0 +1,12 @@
+Paradigm - zbior róznych podejsc programowania(funkcyjne, oop itp..)
+
+Imperative vs Declarative - POdjescie imperatywne: instrukcja krok po kroku jak coś ma zostac wykonane np: pętle for, uzywanie LET itp..; Podejscie Deklaratywne: Opisanie co ma zostac osiągnięte a nie jak to zobic, w skrocie definiowanie logiki np: Uzywanie funkcji wyszych takich jak: reduce, map itp...
+
+Prototype-based object oriented - obiekty mogą dziedziczyc wlasciwosci i metody bezposrdenio od innnych obiektow, zamiast pooprzez klasy. 
+
+First-class functions -> funkcje traktowane jako zmienne, mozna je przekazywac do innych fnkcji i zwracac je jako wynik funkcji
+
+dynamic-typed - dynamicznie tpyowany nie trzeba przypisywac typow itp 
+
+single-threaded and non blocking event loop - concurerency(wspolbieznosc), thread(wątek), JS działa jedno wątkowo ale uyzywa "event loop", ktory bierze operacje ktore wykonują się dluzej, wykonuje je "w tle" i wrzuca je z powrotem do głownego wątku kiedy zostaną ukończone!!
+

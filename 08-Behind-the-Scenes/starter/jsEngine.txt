@@ -1,0 +1,20 @@
+JS engine = program ktory wykonuje kod JS np: V8 Engine wykonuje kod JS w przeglądarkach i NODE.JS
+
+Call stack - kolejnosc wykonania 
+
+heap - stos/kopiec 
+
+compilation vs interpretation - Compilation: cały kod jest konwertowany do kodu maszynowego NA RAZ!! oraz zapisany w binarnym pliku ktory moze byc wykonany przez komputer.
+Interpretation: Wykonywanie kodu linia po linii, konwertowanie jest NA BIEZACO!!
+
+JUST IN TIME COMPILATION - JS uzywa mixu, Konwertuje na raz caly kod do kodu maszynowego i wykonuje go od razu po kompilacji!!!
+
+Parsing (wychwytywanie poprawnosci składni) & AST --> Compilation (Just-in-time)--> Execution(Działa w stosie) --> Optimization(wykonuje sie w trakcie Execution) --> Compilation --> Execution etc......
+
+JS Runtime in browser -> "kontener zawierający wszystkie rzeczy potrzebne do uywanie JSa": JS ENGINE + WEB API's(DOM, Timers, Fetch API ...) + CALLBACK QUEUE(onClick, timer, data ...) + EVENT LOOP(non blocking, czuwa nad tym aby kod sie nie blokował przez asynchroniczne działanie)
+
+JS Runtime in NODE.JS -> "kontener zawierający wszystkie rzeczy potrzebne do uywanie JSa": JS ENGINE + THREAD POOL + CALLBACK QUEUE(click, timer, data ...) + EVENT LOOP(non blocking, czuwa nad tym aby kod sie nie blokował przez asynchroniczne działanie)
+
+
+
+
