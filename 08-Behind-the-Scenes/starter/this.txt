@@ -1,0 +1,6 @@
+this - specjalna zmienna ktora jest tworzona dla kazdego kontexu wykoniania, bierze wartosc wskazujaco "własciciela funkcji", gdzie zostało uzyte
+
+this NIE JEST STATYCZNE, zalezy od tego jak funkcja jest wywoływana i do jakiej wartości jest przypisana podczas wywoływania funkcji!!
+
+ 
+
